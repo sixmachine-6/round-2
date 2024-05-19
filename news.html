@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <style>
+      p {
+        font-weight: 600;
+      }
+
+      ul {
+        width: calc(100%-1rem);
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 1rem;
+        border: 3px solid var(--color-brand--2);
+        margin: 2rem 0.5rem;
+        background: white;
+      }
+      a {
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+        margin: 0.5rem;
+        padding: 0.5rem;
+        min-height: 25px;
+        min-width: 100px;
+        text-align: center;
+        background: var(--color-brand--1);
+        font-size: 2rem;
+        border: none;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+      }
+      .letters h2 {
+        font-size: 2.5rem;
+      }
+      a:hover {
+        transform: scale(1.1);
+      }
+      .image-container .buffet {
+        height: 240px;
+        width: 96%;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 95%;
+        height: 360px;
+      }
+
+      @media all and (min-width: 900px) {
+        .image-container .buffet {
+          height: 400px;
+          width: 600px;
+        }
+        .container {
+          width: 60%;
+          height: 480px;
+        }
+        .width {
+          width: 50%;
+        }
+        section {
+          display: flex;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <h3>Berkshire Hathaway</h3>
+      <input type="text" placeholder="Search" />
+    </header>
+
+    <div class="letters none">
+      <img src="letter.png" />
+      <h3>News Releases</h3>
+    </div>
+    <section>
+      <div class="container">
+        <div class="image-container">
+          <img class="buffet" src="news.png" alt="news" />
+          <!-- <h3>Berksh<span>ire Hat</span>haway</h3> -->
+        </div>
+        <div class="message">
+          <p>News Releases from <span>Buffet & Berkshire </span></p>
+        </div>
+      </div>
+
+      <div>
+        <ul>
+          <li>
+            <a href="https://www.berkshirehathaway.com/news/may0424.pdf"
+              >First Quarter Earning</a
+            >
+          </li>
+          <li>
+            <a href=" https://www.berkshirehathaway.com/news/may0124.pdf"
+              >Annual Meeting and First Quarter Earnings</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/news/feb2424.pdf"
+              >Fourth Quarter Earnings 2023</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/news/feb2024.pdf"
+              >Annual Report Release Information</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/news/jan1624.pdf"
+              >Berkshire Hathaway Completes Acquisition of Remaining Interest in
+              Pilot Travel Centers LLC</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/news/jan0724.pdf"
+              >Berkshire Hathaway Reaches Settlement
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
