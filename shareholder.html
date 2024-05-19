@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <style>
+      p {
+        font-weight: 600;
+      }
+
+      ul {
+        width: calc(100%-1rem);
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 1rem;
+        border: 3px solid var(--color-brand--2);
+        margin: 0.5rem;
+        background: white;
+      }
+      a {
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+        margin: 0.5rem;
+        padding: 0.5rem;
+        height: 25px;
+        width: 100px;
+        text-align: center;
+        background: var(--color-brand--1);
+        font-size: 2rem;
+        border: none;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+      }
+      .letters h2 {
+        font-size: 3rem;
+      }
+      a:hover {
+        transform: scale(1.1);
+      }
+      .image-container .buffet {
+        height: 240px;
+        width: 96%;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 95%;
+        height: 300px;
+      }
+
+      @media all and (min-width: 900px) {
+        .image-container .buffet {
+          height: 400px;
+          width: 600px;
+        }
+        .container {
+          width: 60%;
+          height: 480px;
+        }
+        .width {
+          width: 50%;
+        }
+        section {
+          display: flex;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <h3>Berkshire Hathaway</h3>
+      <input type="text" placeholder="Search" />
+    </header>
+
+    <div class="letters">
+      <img src="letter.png" />
+      <h2>Letters</h2>
+    </div>
+    <section>
+      <div class="container">
+        <div class="image-container">
+          <img class="buffet" src="buffet1.webp" alt="warren1" />
+          <!-- <h3>Berksh<span>ire Hat</span>haway</h3> -->
+        </div>
+        <div class="message">
+          <p>
+            Letter from <span>Warren Buffet </span> to Berkshire Shareholders
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <ul>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/2023ltr.pdf"
+              >2023</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/2022ltr.pdf"
+              >2022</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/2021ltr.pdf"
+              >2021</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/2020ltr.pdf"
+              >2020</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/2019ltr.pdf"
+              >2019</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/2018ltr.pdf"
+              >2018</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/2017ltr.pdf"
+              >2017</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/2016ltr.pdf"
+              >2016</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/2015ltr.pdf"
+              >2015</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/2014ltr.pdf"
+              >2014</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/2013ltr.pdf"
+              >2013</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/2012ltr.pdf"
+              >2012</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/2011ltr.pdf"
+              >2011</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/2010ltr.pdf"
+              >2010</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/2009ltr.pdf"
+              >2009</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/2008ltr.pdf"
+              >2008</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/2007ltr.pdf"
+              >2007</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/2006ltr.pdf"
+              >2006</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/2005ltr.pdf"
+              >2005</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/2004ltr.pdf"
+              >2004</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/2003.html"
+              >2003</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/2002.html"
+              >2002</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/2001.html"
+              >2001</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/2000.html"
+              >2000</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/1999.html"
+              >1999</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/1998.html"
+              >1998</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/1997.html"
+              >1997</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/1996.html"
+              >1996</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/1995.html"
+              >1995</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/1994.html"
+              >1994</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/1993.html"
+              >1993</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/1992.html"
+              >1992</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/1991.html"
+              >1991</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/1990.html"
+              >1990</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/1989.html"
+              >1989</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/1988.html"
+              >1988</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/1987.html"
+              >1987</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/1986.html"
+              >1986</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/1985.html"
+              >1985</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/1984.html"
+              >1984</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/1983.html"
+              >1983</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/1982.html"
+              >1982</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/1981.html"
+              >1981</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/1980.html"
+              >1980</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/1979.html"
+              >1979</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/1978.html"
+              >1978</a
+            >
+          </li>
+          <li>
+            <a href="https://www.berkshirehathaway.com/letters/1977.html"
+              >1977</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>

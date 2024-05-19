@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <style>
+      p {
+        font-weight: 600;
+      }
+
+      ul {
+        width: calc(100%-1rem);
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 1rem;
+        border: 3px solid var(--color-brand--2);
+        margin: 2rem 0.5rem;
+        background: white;
+      }
+      a {
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+        margin: 0.5rem;
+        padding: 0.5rem;
+        height: 25px;
+        width: 100px;
+        text-align: center;
+        background: var(--color-brand--1);
+        font-size: 2rem;
+        border: none;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+      }
+      .letters h2 {
+        font-size: 2.5rem;
+      }
+      a:hover {
+        transform: scale(1.1);
+      }
+      .image-container .buffet {
+        height: 240px;
+        width: 96%;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 95%;
+        height: 360px;
+      }
+
+      @media all and (min-width: 900px) {
+        .image-container .buffet {
+          height: 400px;
+          width: 600px;
+        }
+        .container {
+          width: 60%;
+          height: 480px;
+        }
+        .width {
+          width: 50%;
+        }
+        section {
+          display: flex;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <h3>Berkshire Hathaway</h3>
+      <input type="text" placeholder="Search" />
+    </header>
+
+    <div class="letters">
+      <img src="letter.png" />
+      <h2>(Wesco Financial Corporation) Letters</h2>
+    </div>
+    <section>
+      <div class="container">
+        <div class="image-container">
+          <img class="buffet" src="charlie.jpeg" alt="charlie" />
+          <!-- <h3>Berksh<span>ire Hat</span>haway</h3> -->
+        </div>
+        <div class="message">
+          <p>
+            Letter from <span>Charlie Munger </span>to Wesco ShareHolders annual
+            reports for year shown in right!! Check yearwise letter!!!
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <ul>
+          <l1
+            ><a href="https://www.berkshirehathaway.com/wesco/cm2009.pdf"
+              >2009</a
+            ></l1
+          >
+          <l1
+            ><a href="https://www.berkshirehathaway.com/wesco/cm2008.pdf"
+              >2008</a
+            ></l1
+          >
+          <l1
+            ><a href="https://www.berkshirehathaway.com/wesco/cm2007.pdf"
+              >2007</a
+            ></l1
+          >
+          <l1
+            ><a href="https://www.berkshirehathaway.com/wesco/cm2006.pdf"
+              >2006</a
+            ></l1
+          >
+          <l1
+            ><a href="https://www.berkshirehathaway.com/wesco/cm2005.pdf"
+              >2005</a
+            ></l1
+          >
+          <l1
+            ><a href="https://www.berkshirehathaway.com/wesco/cm2004.pdf"
+              >2004</a
+            ></l1
+          >
+          <l1
+            ><a href="https://www.berkshirehathaway.com/wesco/cm2003.pdf"
+              >2003</a
+            ></l1
+          >
+          <l1
+            ><a href="https://www.berkshirehathaway.com/wesco/cm2002.pdf"
+              >2002</a
+            ></l1
+          >
+          <l1
+            ><a href="https://www.berkshirehathaway.com/wesco/cm2001.pdf"
+              >2001</a
+            ></l1
+          >
+          <l1
+            ><a href="https://www.berkshirehathaway.com/wesco/cm2000.pdf"
+              >2000</a
+            ></l1
+          >
+          <l1
+            ><a href="https://www.berkshirehathaway.com/wesco/cm1999.pdf"
+              >1999</a
+            ></l1
+          >
+          <l1
+            ><a href="https://www.berkshirehathaway.com/wesco/cm1998.pdf"
+              >1998</a
+            ></l1
+          >
+          <l1
+            ><a href="https://www.berkshirehathaway.com/wesco/cm1997.pdf"
+              >1997</a
+            ></l1
+          >
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
